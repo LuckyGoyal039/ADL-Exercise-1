@@ -1,0 +1,33 @@
+.form{
+  /* border:1px solid black; */
+}
+
+.form>input {
+    float: right;
+    padding: 10px;
+    margin-top: 45px;
+    margin-left:10px;
+    margin-right: 16px;
+    border: 2px solid black;
+    /* border-radius: 1.1vw; */
+    font-size: 1.4vw;
+  }
+
+.form>button{
+  margin-left:4.5vw;
+  margin-top:20px;
+  font-size:1.5vw;
+  /* border-color: ; */
+  color: aliceblue;
+  background-color: black;
+  border-width:1px;
+  width:11vw;
+  height:2.5vw;
+}
+
+.form>button:hover{
+  /* background-color:lightskyblue */
+  background-color:rgb(207, 199, 199);
+  color:black;
+}
+

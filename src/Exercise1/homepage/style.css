@@ -1,0 +1,33 @@
+.outer-container{
+    display: flex;
+    height:100%;
+    width:100%;
+}
+
+.left-container{
+    /* border:1px solid black; */
+    background-color: #ccc;
+    /* height:100%; */
+    /* display:flex; */
+    /* width:40vw; */
+    width: 22%;
+}
+
+.left-container>button{
+    margin-left:7vw;
+    font-size: 1.4vw;
+    margin-top: 20px;
+    /* border-radius:7px; */
+    background-color: #000;
+    color:white;
+    width:6vw;
+    height:2.5vw;
+}
+.left-container>button:hover{
+    background-color:rgb(207, 199, 199);
+    color: #000;
+}
+.right-container{
+    flex-grow: 5;
+    width: 78%;
+}
